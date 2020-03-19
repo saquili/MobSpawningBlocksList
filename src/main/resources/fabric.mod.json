@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "vnHTNe5lrHQqbLhPuluN",
+  "version": "${version}",
+  "name": "MobSpawningBlocksList",
+  "description": "Return file with block's coordinates where can monsters spawn.",
+  "authors": [
+    "Phan Paweł"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/saquili/MobSpawningBlocksList"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vnHTNe5lrHQqbLhPuluN/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pl.vpnation.p.MobSpawningBlocksList"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "vnHTNe5lrHQqbLhPuluN.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
